@@ -1,0 +1,49 @@
+#! /usr/bin/env node
+
+var template =
+[
+	'black',
+	'red',
+	'green',
+	'yellow',
+	'blue',
+	'magenta',
+	'cyan',
+	'white'
+]
+
+var schema = require('stalwart')
+
+/* bg only, because of xfce only accepts 16 colors, not {fg/bg} */
+var base16 = schema.base16.colors.bg
+
+var seq = []
+
+seq = template.reduce(function (memo, name)
+{
+	return memo.concat([ base16[name].normal.hex() ])
+},
+seq)
+
+seq = template.reduce(function (memo, name)
+{
+	return memo.concat([ base16[name].bright.hex() ])
+},
+seq)
+
+var data =
+{
+	ColorForeground: base16.black.normal,
+	ColorBackground: base16.white.bright,
+	ColorPalette: seq.join(';')
+}
+
+var fs = require('fs-sync')
+
+var rct = fs.read(__dirname + '/../template')
+
+var mustache = require('mustache')
+
+var rc = mustache.render(rct, data)
+
+fs.write(__dirname + '/../terminalrc', rc)
