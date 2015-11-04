@@ -2,7 +2,7 @@
 	"name": "stalwart-xfce-terminal",
 	"private": true,
 
-	"version": "1.0.0",
+	"version": "1.1.0",
 
 	"scripts":
 	{
@@ -11,7 +11,7 @@
 
 	"devDependencies":
 	{
-		"stalwart": "StreetStrider/stalwart#1.0.0",
+		"stalwart": "StreetStrider/stalwart#1.0.1",
 
 		"mustache": "^2.2",
 		"fs-sync": "^1.0.1"
