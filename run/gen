@@ -36,8 +36,8 @@ var data =
 	ColorForeground: base16.black.normal,
 	ColorBackground: base16.white.bright,
 	ColorPalette: seq.join(';'),
-	ColorCursor: base16.red.bright,
-	TabActivityColor: base16.red.bright
+	ColorCursor: schema.accent,
+	TabActivityColor: schema.accent
 }
 
 var fs = require('fs-sync')
