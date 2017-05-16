@@ -21,6 +21,6 @@ TitleMode=TERMINAL_TITLE_REPLACE
 ColorCursor=#cc0058
 ColorForeground=#202020
 ColorBackground=#fbfbfb
-ColorPalette=#202020;#b00043;#15984e;#7ab100;#0069dd;#6f4ccf;#0094b3;#e1e1e1;#333333;#cc0058;#3ab164;#94ca00;#3886ff;#8962e9;#2daccb;#fbfbfb
+ColorPalette=#202020;#b00043;#15984e;#7ab100;#0069dd;#6e4bce;#0094b4;#e1e1e1;#333333;#cc0058;#3ab164;#94ca00;#3886ff;#8861e8;#2daccc;#fbfbfb
 ScrollingLines=5000
 TabActivityColor=#cc0058
