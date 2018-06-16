@@ -18,6 +18,7 @@ MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 MiscScrollAlternateScreen=TRUE
 TitleMode=TERMINAL_TITLE_REPLACE
+ColorCursorUseDefault=FALSE
 ColorCursor={{ ColorCursor }}
 ColorForeground={{ ColorForeground }}
 ColorBackground={{ ColorBackground }}
