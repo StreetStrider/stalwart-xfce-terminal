@@ -3,7 +3,11 @@
 cd $(dirname "${0}")
 cd ..
 
-ln --symbolic --relative --force \
+cp \
+	~/.config/xfce4/terminal/terminalrc \
+	salvage
+
+cp \
 	terminalrc \
 	~/.config/xfce4/terminal/terminalrc
 
