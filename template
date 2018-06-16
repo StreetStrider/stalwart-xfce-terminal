@@ -25,3 +25,13 @@ ColorBackground={{ ColorBackground }}
 ColorPalette={{ ColorPalette }}
 ScrollingLines=5000
 TabActivityColor={{ TabActivityColor }}
+MiscBellUrgent=FALSE
+MiscMouseWheelZoom=TRUE
+MiscMiddleClickOpensUri=TRUE
+MiscCopyOnSelect=TRUE
+MiscShowRelaunchDialog=TRUE
+MiscRewrapOnResize=TRUE
+MiscUseShiftArrowsToScroll=FALSE
+MiscSlimTabs=FALSE
+MiscNewTabAdjacent=FALSE
+
