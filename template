@@ -34,4 +34,5 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
+MiscShowUnsafePasteDialog=FALSE
 
