@@ -1,5 +1,5 @@
 [Configuration]
-FontName=Iosevka Medium 13
+FontName=Iosevka Fixed SS04 Medium Expanded 13
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
@@ -27,12 +27,15 @@ ScrollingLines=5000
 TabActivityColor={{ TabActivityColor }}
 MiscBellUrgent=TRUE
 MiscMouseWheelZoom=TRUE
-MiscMiddleClickOpensUri=TRUE
+MiscMiddleClickOpensUri=FALSE
 MiscCopyOnSelect=TRUE
 MiscShowRelaunchDialog=TRUE
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
+MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
+ShortcutsNoHelpkey=TRUE
+ShortcutsNoMenukey=TRUE
 
