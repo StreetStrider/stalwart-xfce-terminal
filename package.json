@@ -4,11 +4,6 @@
 
 	"version": "1.4.0",
 
-	"scripts":
-	{
-		"gen": "run/gen"
-	},
-
 	"devDependencies":
 	{
 		"stalwart":
