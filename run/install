@@ -3,12 +3,10 @@
 cd $(dirname "${0}")
 cd ..
 
-cp \
-	~/.config/xfce4/terminal/terminalrc \
-	salvage
+./run/salvage
 
 cp \
 	terminalrc \
 	~/.config/xfce4/terminal/terminalrc
 
-echo OK
+echo install OK

@@ -1,0 +1,10 @@
+#! /bin/sh
+
+cd $(dirname "${0}")
+cd ..
+
+cp \
+	~/.config/xfce4/terminal/terminalrc \
+	salvage
+
+echo salvage OK
