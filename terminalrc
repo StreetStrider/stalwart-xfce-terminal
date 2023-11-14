@@ -1,5 +1,5 @@
 [Configuration]
-FontName=Iosevka Fixed SS04 Medium Expanded 13
+FontName=Iosevka Custom Medium 13
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
@@ -17,7 +17,7 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 MiscScrollAlternateScreen=TRUE
-TitleMode=TERMINAL_TITLE_REPLACE
+TitleMode=TERMINAL_TITLE_HIDE
 ColorCursorUseDefault=FALSE
 ColorCursor=#cc0058
 ColorForeground=#202020
@@ -34,8 +34,8 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
-MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 ShortcutsNoHelpkey=TRUE
 ShortcutsNoMenukey=TRUE
-
+MiscSearchDialogOpacity=100
+MiscRightClickAction=TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU
