@@ -40,12 +40,13 @@ var data =
 	TabActivityColor: schema.accent
 }
 
-var fs = require('fs-sync')
-
-var rct = fs.read(__dirname + '/../template')
-
+var { read, write } = require('fs-sync')
 var mustache = require('mustache')
 
-var rc = mustache.render(rct, data)
+// var rct = read(__dirname + '/../template')
+// var rc = mustache.render(rct, data)
+// write(__dirname + '/../terminalrc', rc)
 
-fs.write(__dirname + '/../terminalrc', rc)
+var rct = read(__dirname + '/../template.xml')
+var rc = mustache.render(rct, data)
+write(__dirname + '/../xfce4-terminal.xml', rc)

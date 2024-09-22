@@ -5,8 +5,12 @@ cd ..
 
 ./run/salvage
 
+# cp \
+# 	terminalrc \
+# 	~/.config/xfce4/terminal/terminalrc
+
 cp \
-	terminalrc \
-	~/.config/xfce4/terminal/terminalrc
+	xfce4-terminal.xml \
+	~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml
 
 echo install OK

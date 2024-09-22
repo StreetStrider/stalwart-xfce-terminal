@@ -3,8 +3,12 @@
 cd $(dirname "${0}")
 cd ..
 
+# cp \
+# 	~/.config/xfce4/terminal/terminalrc \
+# 	salvage
+
 cp \
-	~/.config/xfce4/terminal/terminalrc \
-	salvage
+	~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml \
+	salvage.xml
 
 echo salvage OK
